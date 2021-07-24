@@ -1,0 +1,33 @@
+{
+    "name": "redmix0901/google-token",
+    "description": "Get Token Google",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "google",
+        "token",
+        "laravel",
+        "client"
+    ],
+    "require": {
+        "google/apiclient": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Redmix0901\\GoogleToken\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tran Dinh Tu",
+            "email": "redmix0901@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Redmix0901\\GoogleToken\\ServiceProvider"
+          ]
+        }
+    }
+}
